@@ -14,8 +14,7 @@ function Projects() {
   return (
     <section className="bg-black text-white min-h-screen py-20">
         <div className="max-w-6xl mx-auto px-6 space-y-16">
-            
-            {/* Projects Header */}
+          
             <div className="text-center">
                  <h2 className="text-4xl font-bold font-Outfit mb-2">
                     Feature <span className="text-yellow-500">Projects</span>
@@ -24,7 +23,7 @@ function Projects() {
             </div>
 
             <div className="grid md:grid-cols-2 gap-8">
-                 {/* Project 1 */}
+                 
                 <div className="bg-white/5 p-8 rounded-2xl shadow-lg border border-white/10 backdrop-blur-sm hover:border-yellow-500/50 hover:shadow-[0_0_20px_rgba(234,179,8,0.1)] transition-all duration-300 group">
                     <div className="text-2xl font-bold text-white mb-2 group-hover:text-yellow-400 transition-colors font-Outfit">RespiroPure</div>
                     <span className="text-yellow-500 text-sm font-semibold tracking-wide uppercase">IoT & Environmental Tech</span>
@@ -40,7 +39,6 @@ function Projects() {
                     </div>
                  </div>
 
-                 {/* Project 2 */}
                 <div className="bg-white/5 p-8 rounded-2xl shadow-lg border border-white/10 backdrop-blur-sm hover:border-yellow-500/50 hover:shadow-[0_0_20px_rgba(234,179,8,0.1)] transition-all duration-300 group">
                     <div className="text-2xl font-bold text-white mb-2 group-hover:text-yellow-400 transition-colors font-Outfit">MindMate</div>
                     <span className="text-yellow-500 text-sm font-semibold tracking-wide uppercase">AI Wellness Chatbot</span>
@@ -57,8 +55,7 @@ function Projects() {
                 </div>
             </div>
             
-            {/* Publications */}
-            <div className="pt-10">
+                <div className="pt-10">
                <h2 className="text-3xl font-bold text-center mb-10 font-Outfit">
                     Research <span className="text-yellow-500">Publications</span>
                 </h2>
