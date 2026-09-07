@@ -2,8 +2,8 @@ function Internships() {
   const internships = [
     {
       company: "Barberaa",
-      role: "Technical Intern",
-      duration: "Dec 2025 – Present",
+      role: "Junior Full Stack Developer",
+      duration: "Dec 2025 – Aug 2026",
       responsibilities: [
         "Assisting in developing and maintaining technical solutions.",
         "Gaining hands-on experience in real-world development workflows.",
